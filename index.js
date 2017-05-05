@@ -1,4 +1,4 @@
-var person = new Person("Justin", "Meyer");
+var person = new Person("Boss", "Meyer");
 person.first    //-> "Justin"
 person.last     //-> "Meyer"
 person.fullName //-> "Justin Meyer"
