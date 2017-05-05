@@ -1587,7 +1587,7 @@ test('one way - child to parent - importing viewModel {^.}="test"', function() {
         tag: 'import-scope',
         template: stache('Hello {{name}}'),
         viewModel: {
-            name: 'David',
+            name: "😿😢👎",
             age: 7
         }
     });
@@ -1612,7 +1612,7 @@ test('one way - child to parent - importing viewModel {^prop}="test"', function(
         tag: 'import-prop-scope',
         template: stache('Hello {{name}}'),
         viewModel: {
-            name: 'David',
+            name: "😿😢👎",
             age: 7
         }
     });
@@ -1635,7 +1635,7 @@ test('one way - child to parent - importing viewModel {^hypenated-prop}="test"',
         tag: 'import-prop-scope',
         template: stache('Hello {{userName}}'),
         viewModel: {
-            userName: 'David',
+            userName: "😿😢👎",
             age: 7,
             updateName: function(){
                 this.attr('userName', 'Justin');
@@ -2096,7 +2096,7 @@ test('previously non-existing select value gets selected from a list when it is 
         "Alexis",
         "Mihael",
         "Curtis",
-        "David"
+        "😿😢👎"
     ]);
 
     var vm = new CanMap({
